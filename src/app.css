@@ -1,15 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+
+
+:root {
+	--pink-100: hsla(14, 59%, 89%, 0.826);
+	/* --pink-90: hsla(292, 86%, 83%, 0.917); */
+	--violet: hsla(14, 59%, 89%, 0.764);
+	--color3: hsla(354, 31%, 81%, 0.811);
+	/* --pink-100: rgba(211, 147, 146, 0.604); */
+	--blue: #1e90ff;
+	--white: #ffffff;
+	--width: 70rem;
+	--header-height: 300px;
+  }
+
+  @media only screen and (max-width: 1199px) {
+	  :root {
+		--width: 95vw;
+	  }
+    
+	}
+
 body {
 	min-height: 100vh;
 	margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-	/* background: url('./assets/flowers.png') no-repeat center center fixed;
-	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	/* -webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover; */
+	-o-background-size: cover; */
+	background-color: white;
+	background-image: url('./assets/background.png');
+	background-blend-mode: multiply;
 }
 
 h1, p {
 	margin: 0;
 	padding: 0;
+}
+
+.content-sizing {
+	width: var(--width);
+	margin: 0 auto;
 }

@@ -1,37 +1,47 @@
 <header>
 	<div class="image-wrapper">
-		<img src="logo.svg" alt="" />
+		<img class="logo" src="logo.svg" alt="logo" />
 	</div>
-	<nav>
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/gallery">Gallery</a>
-		<a href="/contact">Contact</a>
-	</nav>
+	<div class="navigation-wrapper">
+		<nav class="content-sizing">
+			<a href="/">Home</a>
+			<a href="/about">About</a>
+			<a href="/gallery">Gallery</a>
+			<a href="/contact">Contact</a>
+		</nav>
+	</div>
 </header>
 
 <style>
+
+	.logo {
+		width: 15rem;
+	}
+	.navigation-wrapper {
+		padding: 1rem;
+		border-top: 2px solid #b97f34;
+		border-bottom: 2px solid #b97f34;
+		background-color: white;
+	}
 	.image-wrapper {
 		display: flex;
 		justify-content: center;
-		background-color: #d3919066;
+		background-color: var(--pink-100);
+		/* background-color: #d3919066; */
 	}
 
 	nav {
-		padding: 1rem;
 		display: flex;
-		justify-content: center;
-		border-top: 2px solid #b97f34;
-		border-bottom: 2px solid #b97f34;
+		justify-content: space-between;
 	}
 
 	a {
-		margin: 0 9rem;
 		text-decoration: none;
 		color: black;
 		font-size: 1.3rem;
 		font-weight: 600;
 	}
+
 	a:hover {
 		color: #b97f34;
 	}

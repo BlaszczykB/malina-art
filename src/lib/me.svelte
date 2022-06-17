@@ -1,20 +1,19 @@
 
-<section>
-	<div>
-		<h1>O Mnie</h1>
-		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur dolores saepe corporis labore repellat eveniet vel nemo ad ratione odio minima voluptas velit, alias dolorum animi quos praesentium consequatur blanditiis, enim vitae quo amet. Et, rem! Porro pariatur inventore ab ducimus placeat a. Quasi officia expedita hic recusandae animi!</p>
-	</div>
-    <img src="malwina.png" alt="">
-</section>
+<div class="section-wrapper">
+	<section class="content-sizing">
+		<div>
+			<h1>O Mnie</h1>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur dolores saepe corporis labore repellat eveniet vel nemo ad ratione odio minima voluptas velit, alias dolorum animi quos praesentium consequatur blanditiis, enim vitae quo amet. Et, rem! Porro pariatur inventore ab ducimus placeat a. Quasi officia expedita hic recusandae animi!</p>
+		</div>
+		<img src="malwina.png" alt="">
+	</section>
+</div>
+
 
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
-
 	section {
 		display: flex;
-		padding: 4rem 30%;
-		background-color: #d393929a;
 		align-items: center;
 	}
 
@@ -33,5 +32,11 @@
 	img {
 		border: 3px solid #b97f34;
 		border-radius: 50%;
+	}
+
+	.section-wrapper {
+		padding: 5rem 0;
+		background-color: var(--color3);
+		/* background-color: #d393929a; */
 	}
 </style>

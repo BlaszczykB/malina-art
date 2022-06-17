@@ -1,6 +1,10 @@
 <script lang="ts">
 	import Me from '../lib/me.svelte';
-    import '../app.css';
+	import CompanyInfo from '../lib/company-info.svelte';
 </script>
 
-<Me/>
+<div>
+    <CompanyInfo/>
+    <Me/>
+</div>
+

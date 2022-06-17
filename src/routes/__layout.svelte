@@ -9,8 +9,8 @@
 	<meta property="og:title" content="Malina Art - Studio Makijażu">
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Piękne makijaże robione z pasji">
-	<meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
-	<meta property="og:url" content="http://euro-travel-example.com/index.htm">
+	<meta property="og:image" content="https://malina-zeta.vercel.app/logo.svg">
+	<meta property="og:url" content="https://malina-zeta.vercel.app">
 	<meta property="og:site_name" content="Malina Art - Studio Makijażu">
 	<!-- <meta name="twitter:card" content="summary_large_image"> -->
 </svelte:head>

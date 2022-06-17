@@ -12,7 +12,7 @@
 	<meta property="og:image" content="https://malina-zeta.vercel.app/logo.svg">
 	<meta property="og:url" content="https://malina-zeta.vercel.app">
 	<meta property="og:site_name" content="Malina Art - Studio Makijażu">
-	<meta name="twitter:card" content="https://malina-zeta.vercel.app/logo.svg">
+	<meta name="twitter:card" content="summary_large_image">
 </svelte:head>
 
 <div class="app">

@@ -17,7 +17,7 @@
 <div class="gallery">
     <div class="image-container content-sizing">
         {#each imagesLit as image, i}
-        <img src="{image}" alt="" on:click={() => {selectedImage = image}}>
+        <img src="{image}" alt="make up" on:click={() => {selectedImage = image}}>
         {/each}
     </div>
 </div>

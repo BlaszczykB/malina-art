@@ -5,7 +5,7 @@
 			<h1>O Mnie</h1>
 			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur dolores saepe corporis labore repellat eveniet vel nemo ad ratione odio minima voluptas velit, alias dolorum animi quos praesentium consequatur blanditiis, enim vitae quo amet. Et, rem! Porro pariatur inventore ab ducimus placeat a. Quasi officia expedita hic recusandae animi!</p>
 		</div>
-		<img src="malwina.png" alt="">
+		<img src="malwina.png" alt="Malwina Stanula">
 	</section>
 </div>
 

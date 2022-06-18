@@ -9,15 +9,15 @@
             <div>
                 <div>
                     <div class="contact-line">
-                        <img class="icon" src="location.svg" alt="">
+                        <img class="icon" src="location.svg" alt="location">
                         <p>ul. Malina 1; 60-844 Kraków</p>
                     </div>
                     <div class="contact-line">
-                        <img class="icon" src="mail.svg" alt="">
+                        <img class="icon" src="mail.svg" alt="mail">
                         <p>test@gmail.com</p>
                     </div>
                     <div class="contact-line">
-                        <img class="icon" src="phone.svg" alt="">
+                        <img class="icon" src="phone.svg" alt="phone">
                         <p>(48)555-555-555</p>
                     </div>
                 </div>

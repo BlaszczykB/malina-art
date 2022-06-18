@@ -4,7 +4,7 @@
 			<h1>Malina Art</h1>
 			<p>STUDIO MAKIJAŻU</p>
 		</div>
-		<img src="malwina.png" alt="">
+		<img src="malwina.png" alt="Makeup example">
 	</section>
 </div>
 

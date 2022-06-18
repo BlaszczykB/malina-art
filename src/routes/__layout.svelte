@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Malina Art</title>
+    <title>Malina Art Make Up - Studio Makijażu</title>
 	<meta property="og:title" content="Malina Art - Studio Makijażu">
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Piękne makijaże robione z pasji">

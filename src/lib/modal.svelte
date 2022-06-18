@@ -7,9 +7,9 @@
     <div class="backdrop" on:click|self>
         <div class="modal">
             <div class="closing-circle" on:click>
-                <img src="cross.svg" alt="">
+                <img src="cross.svg" alt="Closing sign">
             </div>
-            <img src="{image}" alt="">
+            <img src="{image}" alt="Selected Make Up">
         </div>
     </div>
 {/if}

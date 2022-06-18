@@ -2,7 +2,7 @@
 <div class="section-wrapper">
 	<section class="content-sizing">
 		<div>
-			<h1>O Mnie</h1>
+			<h2>O Mnie</h2>
 			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum pariatur dolores saepe corporis labore repellat eveniet vel nemo ad ratione odio minima voluptas velit, alias dolorum animi quos praesentium consequatur blanditiis, enim vitae quo amet. Et, rem! Porro pariatur inventore ab ducimus placeat a. Quasi officia expedita hic recusandae animi!</p>
 		</div>
 		<img src="malwina.png" alt="Malwina Stanula">
@@ -17,7 +17,7 @@
 		align-items: center;
 	}
 
-	h1 {
+	h2 {
 		font-family: var(--fancy-font);
 		color: #b97f34;
 		font-size: 4rem;

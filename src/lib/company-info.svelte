@@ -1,7 +1,7 @@
 <div class="section-wrapper">
 	<section class="content-sizing">
 		<div>
-			<h1>Malina Art</h1>
+			<h2>Malina Art</h2>
 			<p>STUDIO MAKIJAŻU</p>
 		</div>
 		<img src="malwina.png" alt="Makeup example">
@@ -24,7 +24,7 @@
 		padding: 5rem 0;
 	}
 
-	h1 {
+	h2 {
 		font-family: var(--fancy-font);
 		color: #b97f34;
 		font-size: 4rem;

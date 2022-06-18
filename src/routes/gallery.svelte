@@ -46,6 +46,7 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+        cursor: pointer;
     }
 
     @media (max-width: 890px) {

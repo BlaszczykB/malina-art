@@ -6,6 +6,9 @@
 {#if image}
     <div class="backdrop" on:click|self>
         <div class="modal">
+            <div class="closing-circle" on:click>
+                <img src="cross.svg" alt="">
+            </div>
             <img src="{image}" alt="">
         </div>
     </div>
@@ -31,5 +34,23 @@
         border-radius: 4px;
         margin: 20% auto;
         background-color: #fff;
+        position: relative;
+    }
+
+    .closing-circle {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        cursor: pointer;
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.675);
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+    }
+
+    .closing-circle img {
+        width: 50%;
+        height: 100%;
     }
 </style>

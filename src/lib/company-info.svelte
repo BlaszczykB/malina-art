@@ -39,5 +39,12 @@
 	img {
 		border: 3px solid #b97f34;
 		border-radius: 50%;
+		max-width: 80vw;
+	}
+
+	@media (max-width: 768px) {
+		section {
+			flex-direction: column;
+		}
 	}
 </style>

@@ -30,6 +30,7 @@
 	}
 
 	img {
+		max-width: 80vw;
 		border: 3px solid var(--gold);
 		border-radius: 50%;
 	}
@@ -37,5 +38,11 @@
 	.section-wrapper {
 		padding: 5rem 0;
 		background-color: var(--main-background-color);
+	}
+
+	@media (max-width: 768px) {
+		section {
+			flex-direction: column;
+		}
 	}
 </style>

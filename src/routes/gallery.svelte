@@ -38,11 +38,26 @@
         column-gap: 10px; */
         gap: 2rem 3rem;
         background-color: var(--main-background-color);
+        justify-items: center;
+        justify-content: center;
     }
 
     img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+    }
+
+    @media (max-width: 890px) {
+        .image-container {
+            gap: 2rem 1.5rem;
+        }
+    }
+
+    @media (max-width: 560px) {
+        .image-container {
+            grid-template-columns: repeat(auto-fit, 250px);
+            row-gap: 5rem;
+        }
     }
 </style>

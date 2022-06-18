@@ -12,7 +12,7 @@
 	<meta property="og:image" content="https://malina-zeta.vercel.app/logo.svg">
 	<meta property="og:url" content="https://malina-zeta.vercel.app">
 	<meta property="og:site_name" content="Malina Art - Studio Makijażu">
-	<meta name="twitter:card" content="summary_large_image">
+	<!-- <meta name="twitter:card" content="summary_large_image"> -->
 </svelte:head>
 
 <div class="app">
@@ -20,10 +20,9 @@
 	<main>
 		<slot />
 	</main>
-	<!-- <Footer/> -->
+	<Footer/>
 </div>
 
 <style>
-
     
 </style>

@@ -2,12 +2,12 @@
 	<div class="image-wrapper">
 		<img class="logo" src="logo.svg" alt="logo" />
 	</div>
-	<div class="navigation-wrapper">
+	<div class="navigation-wrapper bordered">
 		<nav class="content-sizing">
-			<a href="/">Home</a>
-			<a href="/about">About</a>
-			<a href="/gallery">Gallery</a>
-			<a href="/contact">Contact</a>
+			<a href="/">Strona Główna</a>
+			<!-- <a href="/about">About</a> -->
+			<a href="/gallery">Galeria</a>
+			<a href="/contact">Kontakt</a>
 		</nav>
 	</div>
 </header>
@@ -15,13 +15,12 @@
 <style>
 
 	.logo {
-		width: 15rem;
+		height: var(--logo-size);
 	}
 	.navigation-wrapper {
-		padding: 1rem;
-		border-top: 2px solid #b97f34;
-		border-bottom: 2px solid #b97f34;
+		padding: var(--padding-small) 0;
 		background-color: white;
+		height: 26px;
 	}
 	.image-wrapper {
 		display: flex;

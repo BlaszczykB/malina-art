@@ -25,7 +25,7 @@
 	}
 
 	h1 {
-		font-family: 'Ingrid Darling', cursive;
+		font-family: var(--fancy-font);
 		color: #b97f34;
 		font-size: 4rem;
 		margin-bottom: 2rem;

@@ -26,8 +26,8 @@
 
 <style>
     .gallery {
-        background-color: var(--color3);
-        height: calc(100vh - var(--header-height));
+        background-color: var(--main-background-color);
+        min-height: var(--main-section-size);
     }
     .image-container {
         padding: 3rem 0;
@@ -37,7 +37,7 @@
         /* grid-gap: 10px;
         column-gap: 10px; */
         gap: 2rem 3rem;
-        background-color: var(--color3);
+        background-color: var(--main-background-color);
     }
 
     img {

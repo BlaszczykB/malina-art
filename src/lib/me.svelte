@@ -18,7 +18,7 @@
 	}
 
 	h1 {
-		font-family: 'Ingrid Darling', cursive;
+		font-family: var(--fancy-font);
 		color: #b97f34;
 		font-size: 4rem;
 		margin-bottom: 2rem;
@@ -30,13 +30,12 @@
 	}
 
 	img {
-		border: 3px solid #b97f34;
+		border: 3px solid var(--gold);
 		border-radius: 50%;
 	}
 
 	.section-wrapper {
 		padding: 5rem 0;
-		background-color: var(--color3);
-		/* background-color: #d393929a; */
+		background-color: var(--main-background-color);
 	}
 </style>

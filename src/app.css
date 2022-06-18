@@ -5,15 +5,25 @@
 	--pink-100: hsla(14, 59%, 89%, 0.826);
 	/* --pink-90: hsla(292, 86%, 83%, 0.917); */
 	--violet: hsla(14, 59%, 89%, 0.764);
-	--color3: hsla(354, 31%, 81%, 0.811);
+	--main-background-color: hsla(354, 31%, 81%, 0.811);
 	/* --pink-100: rgba(211, 147, 146, 0.604); */
-	--blue: #1e90ff;
-	--white: #ffffff;
 	--width: 70rem;
-	--header-height: 300px;
+	--footer-height: 60px;
+	--gold: #b97f34;
+	--fancy-font: 'Ingrid Darling', cursive;
+	--logo-size: 150px;
+	--footer-logo-size: 30px;
+	--footer-padding: 5px;
+	--border-size-small: 2px;
+	--padding-small: 12px;
+	--page-bottom-size: 16px;
+	/* --padding-small: 16px; */
+	--header-height: calc(var(--logo-size) + 2 * var(--padding-small) + 26px + 2 * var(--border-size-small));
+	--footer-height: calc(var(--footer-logo-size) + 2 * var(--footer-padding) + 2 * var(--border-size-small) + var(--page-bottom-size));
+	--main-section-size: calc(100vh - (var(--header-height) + var(--footer-height)));
   }
 
-  @media only screen and (max-width: 1199px) {
+  @media only screen and (max-width: 1200px) {
 	  :root {
 		--width: 95vw;
 	  }
@@ -36,7 +46,7 @@ body {
 	background-blend-mode: multiply;
 }
 
-h1, p {
+h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
 }
@@ -44,4 +54,9 @@ h1, p {
 .content-sizing {
 	width: var(--width);
 	margin: 0 auto;
+}
+
+.bordered {
+	border-top: var(--border-size-small) solid var(--gold);
+	border-bottom: var(--border-size-small) solid var(--gold);
 }
